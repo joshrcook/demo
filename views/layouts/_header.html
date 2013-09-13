@@ -1,0 +1,49 @@
+
+<div class="container">
+	<div id="eight columns">
+		<h1><a href="/"><r:site_name /></a></h1>
+	</div>
+	<div id="eight columns">
+		
+		<div id="searchbox">
+		
+			<ul id="search-box" class="nav">
+				<li>
+					<form class="form-wrapper cf" action="/s/" method="get" id="search-form">
+
+
+						
+						
+						<label class="visuallyhidden focusable" for="q">Search</label>         
+						<input class="text" id="q" maxlength="256" name="q" placeholder="Search..." size="32" type="text" />
+						
+						<input class="hidden" id="sort" name="sort" type="hidden" value="date:D:L:d1" />
+						<input class="hidden" id="output" name="output" type="hidden" value="xml_no_dtd" />
+						<input class="hidden" id="ie" name="ie" type="hidden" value="UTF-8" />
+						<input class="hidden" id="oe" name="oe" type="hidden" value="UTF-8" />
+						<input class="hidden" id="client" name="client" type="hidden" value="default_frontend" />
+						<input class="hidden" id="site" name="site" type="hidden" value="default_collection" />
+
+						<input class="submit" name="btnG" type="submit" value="Search" />
+				        
+					</form>
+					<ul data-ga="quicklinks">
+						<li><a href="/request-services">Request Services</a></li>
+						<li><a href="/new-to-university-relations">New to UR?</a></li>
+						<li><a href="http://brand.wvu.edu/">WVU Brand Guidelines</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<r:editable_region name="audience_navigation" />
+	</div>
+</div>
+
+<div class="wrapper">
+	<div class="container">
+		<nav class="nav sixteen columns" role="navigation">
+		  <r:site_menu />
+		</nav> <!-- close nav -->
+	</div>
+</div>
