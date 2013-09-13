@@ -1,4 +1,4 @@
-cleanslate-toolkit
+information-technology
 ==================
 
-A boilerplate for creating themes in CleanSlate
+Theme for Information Technology
