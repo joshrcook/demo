@@ -134,6 +134,10 @@ nav li a {
 
 aside {
 	padding-top: 0px;
+}
+	
+.faded-background {
+	padding: 20px;	
 	background: #eaeaea; /* Old browsers */
 
 	background: -moz-linear-gradient(top,  #eaeaea 21%, #ffffff 99%); /* FF3.6+ */
