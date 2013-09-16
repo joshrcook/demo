@@ -1,6 +1,9 @@
 /* Put your styles here! */
 
-body { background-color: #fff; }
+body { 
+	background-color: #fff; 
+	background: #fff url(../images/body_repeat_bg.png);
+}
 
 .breadcrumbs { font-size: .7em; padding-left: 0; }
 .breadcrumbs li { display: inline; list-style-type: none; margin-left: 0; }
@@ -25,6 +28,18 @@ h2 {
 	font-size: 36px;
 	border-bottom: 0px;
 	max-width: 999em;
+}
+
+#content-wrapper {
+	background: #fff;
+	float: left;
+	-webkit-box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
+        
+	        box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
+}
+
+.inner-wrapper {
+	padding: 20px;
 }
 
 #nav-wrapper {

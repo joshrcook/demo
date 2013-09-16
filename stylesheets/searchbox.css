@@ -45,7 +45,7 @@
 
 #search-wrapper {
 	height: auto;
-	background: #eee;
+	background: #fff;
 }
 
 #index #search-wrapper {
@@ -109,7 +109,7 @@ margin-bottom: 0px;
     padding: 5px 5px;
     float: left;
     border: 0;
-    background: #eee;
+    background: #fff;
     xborder-radius: 3px 0 0 3px;
 	margin-bottom: 0px;
 	margin-top: 2px;
