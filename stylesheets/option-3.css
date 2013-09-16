@@ -1,0 +1,131 @@
+
+
+#search-box,
+#search-box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Top level nav */
+#search-box {
+	float: left;
+}
+
+/* Dropdowns */
+
+
+
+#search-box ul {
+	position: absolute;
+	left: -9999px;
+	opacity: 0;
+	padding-bottom: 25px;
+
+	-webkit-transition: 0.1s linear opacity;
+
+	width: 100%;
+	background: #333;
+	background: rgba(0,0,0,0.8);
+
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+}
+
+#search-box.second ul {
+	top: 36px;
+}
+
+#search-box ul li {
+	width: 262px;
+	float: left;
+}
+#search-box ul ul {
+	position: static;
+	padding-bottom: 15px;
+}
+#search-box li {
+	float: left;
+}
+
+#search-box h3 {
+	color: #fff;
+	margin-left: 15px;
+}
+
+/* Top level nav items */
+#search-box li > a {
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Top level hover state, preserve hover state when hovering dropdown  */
+#search-box li > a:hover,
+#search-box li > a:focus,
+#search-box li:focus > a,
+#search-box li:hover > a {
+	background: #999;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4), 0 -1px 0 rgba(255,255,255,0.2);
+	outline: 0;
+	color: #333;
+}
+
+/* Rounded corners for first top level nav item */
+#search-box > li:first-child > a {
+	border-left: 0;
+	
+
+}
+
+/* Rounded corners for last top level nav item */
+#search-box > li:last-child > a {
+	border-right: 0;
+
+}
+
+/*.nav li:hover ul,
+.nav li:focus ul,
+ul.show-menu {
+	left: 0;
+	opacity: 0.99;
+}*/
+/*
+#search-box li:hover ul,
+#search-box li:focus ul,
+ul.show-menu {
+	left: 0;
+	opacity: 0.99;
+}
+*/
+#search-box ul li {
+	position: static;
+}
+
+#search-box ul a {
+	float: none;
+	display: block;
+	color: #FFF;
+	font-size: 12px;
+	text-shadow: none;
+
+	-webkit-transition: 0.1s linear all;
+}
+
+/* Rounded corners for ul and last list item */
+#search-box ul,
+#search-box ul li:last-child a {
+	border: 0;
+
+}
+
+#search-box ul a:hover,
+#search-box ul a:focus {
+	background: #EEE;
+	color: #333;
+	text-shadow: none;
+}
+
+p { clear: both; }

@@ -21,6 +21,8 @@
     <r:partial name="masthead" />
 
     <r:partial name="header" />
+	
+	<r:partial name="navigation" />
     
 	<div class="container">
 	
@@ -29,12 +31,8 @@
     
     </div> <!-- /.container -->
 
-	
-	<!-- // <script>window.jQuery || document.write('<script src="/themes/shared/javascripts/jquery-1.9.1.min.js"><\/script>')</script> -->
-	 <!-- http://css-tricks.com/snippets/jquery/fallback-for-cdn-hosted-jquery -->
- 
 
-	
+	<r:include_javascript name="jquery-1.10.2.min" />
 	<r:include_javascript name="jquery.tools.min" />
 	<r:include_javascript name="modernizr.custom" />
 	<r:include_javascript name="navigation-option-6" />

@@ -1,13 +1,13 @@
 
 <div class="container">
-	<div id="eight columns">
+	<div class="eight columns">
 		<h1><a href="/"><r:site_name /></a></h1>
 	</div>
-	<div id="eight columns">
+	<div class="eight columns">
 		
 		<div id="searchbox">
 		
-			<ul id="search-box" class="nav">
+			<ul id="search-box">
 				<li>
 					<form class="form-wrapper cf" action="/s/" method="get" id="search-form">
 
@@ -28,22 +28,18 @@
 				        
 					</form>
 					<ul data-ga="quicklinks">
-						<li><a href="/request-services">Request Services</a></li>
-						<li><a href="/new-to-university-relations">New to UR?</a></li>
-						<li><a href="http://brand.wvu.edu/">WVU Brand Guidelines</a></li>
+						<li><a href="http://myid.wvu.edu">MyID</a></li>
+						<li><a href="/labs">Computer Labs</a></li>
+						<li><a href="/wireless">Wireless Network Access</a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 		
-		<r:editable_region name="audience_navigation" />
+		<div id="audience-nav">
+			<r:partial name="audience-navigation" />
+		</div>
+		
 	</div>
 </div>
 
-<div class="wrapper">
-	<div class="container">
-		<nav class="nav sixteen columns" role="navigation">
-		  <r:site_menu />
-		</nav> <!-- close nav -->
-	</div>
-</div>
