@@ -15,7 +15,7 @@ layout: default
 	  	  <h2><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
 		</div>
 	
-		<div class="twelve columns">
+		<div class="twelve columns alpha">
 			<div class="inner-wrapper">
 				<r:editable_region name="main" />
 			</div>
@@ -23,24 +23,28 @@ layout: default
 		
 	  
 	  	<div class="four columns omega">
-  	  	  <r:editable_region name="sidebar_1" />
+			<div class="inner-wrapper">
+  	  	  	  <r:editable_region name="sidebar_1" />
+		  	</div>
 	  	</div>
 	  
 	  	<div id="quick-links" class="sixteen columns alpha omega">
-	  		<r:editable_region name="quick_links" />
+			<div class="inner-wrapper">
+	  			<r:editable_region name="quick_links" />
+			</div>
 	  	</div>
 	  	
   
 	</main><!-- /.main -->
  
  	
-   	 <aside class="sidebar six columns" role="complementary">
+   	 <aside class="sidebar six columns alpha" role="complementary">
 		 <div class="inner-wrapper">
    	 		<r:editable_region name="sidebar_2" />
 		</div>
    	 </aside> <!-- /.sidebar -->
  
-   	 <aside class="sidebar six columns omega" role="complementary">
+   	 <aside class="sidebar six columns" role="complementary">
 		 <div class="inner-wrapper">
    	  	   <r:editable_region name="sidebar_3" />
 	   </div>

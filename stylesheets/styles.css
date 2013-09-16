@@ -30,6 +30,10 @@ h2 {
 	max-width: 999em;
 }
 
+h3 {
+	font-size: 18px;
+}
+
 #content-wrapper {
 	background: #fff;
 	float: left;
@@ -129,6 +133,7 @@ nav li a {
 }
 
 aside {
+	padding-top: 0px;
 	background: #eaeaea; /* Old browsers */
 
 	background: -moz-linear-gradient(top,  #eaeaea 21%, #ffffff 99%); /* FF3.6+ */
