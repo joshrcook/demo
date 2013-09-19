@@ -26,6 +26,7 @@ h1 a:link, h1 a:visited {
 h2 {
 	color: #005daa;
 	font-size: 36px;
+	line-height: 36px;
 	border-bottom: 0px;
 	max-width: 999em;
 	margin-top: 0px;
@@ -34,6 +35,11 @@ h2 {
 h3 {
 	margin-top: 0px;
 	font-size: 18px;
+}
+
+.sidebar, aside {
+	font-size: 12px;
+	line-height: 18px;
 }
 
 #content-wrapper {
