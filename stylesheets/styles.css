@@ -42,6 +42,14 @@ h3 {
 	line-height: 18px;
 }
 
+aside.alpha .inner-wrapper {
+	padding-right: 0px;
+}
+
+aside.omega .inner-wrapper {
+	padding-left: 0px;
+}
+
 #content-wrapper {
 	background: #fff;
 	float: left;
