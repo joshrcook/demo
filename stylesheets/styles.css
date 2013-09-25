@@ -80,6 +80,10 @@ aside ul li {
 	padding: 40px 40px 0 40px;
 }
 
+.inner-wrapper.no-top-padding {
+	padding-top: 0px;
+}
+
 #nav-wrapper {
 
 	background: #000000; /* Old browsers */
