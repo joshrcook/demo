@@ -69,6 +69,7 @@ aside ul li {
 
 #content-wrapper {
 	background: #fff;
+	padding-bottom: 40px;
 	float: left;
 	-webkit-box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
         
@@ -76,7 +77,7 @@ aside ul li {
 }
 
 .inner-wrapper {
-	padding: 40px;
+	padding: 40px 40px 0 40px;
 }
 
 #nav-wrapper {
@@ -219,6 +220,14 @@ aside {
 	margin-top: 40px;
 }
 
+
+#services {
+	padding: 40px 0;
+	-webkit-box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
+        
+	        box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
+			background: #f4f4f4;
+}
 
 /* #Mobile - Landscape
 ================================================== */
