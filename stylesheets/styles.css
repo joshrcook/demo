@@ -179,9 +179,27 @@ nav li a {
 	padding: 0px;
 }
 
+#subnav ul li ul li {
+	border-bottom: 0px;
+}
+
 #subnav ul li a {
 	padding: 12px 10px;
 	display: block;
+}
+
+#subnav ul li a.active {
+	background: #d9531e;
+	color: #000;
+}
+
+#subnav ul li ul {
+	margin-bottom: 13px;
+}
+
+#subnav ul li ul li a {
+	padding: 0px 10px;
+	color: #ddd;
 }
 
 #subnav a:link, #subnav a:visited {
