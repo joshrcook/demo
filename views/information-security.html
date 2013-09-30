@@ -1,0 +1,59 @@
+---
+layout: default
+---
+ 
+<div class="container">
+	<div class="sixteen columns">
+		<r:breadcrumbs ul_class="breadcrumbs" />
+	</div>
+
+	<div id="content-wrapper" class="sixteen columns">
+	
+
+		<aside class="four columns alpha">
+			<div class="inner-wrapper subnav">
+				<div id="subnav">
+					<r:editable_region name="subnav_info_security" scope="site" />
+				</div>
+			</div>
+			
+		</aside>
+		<main class="main twelve columns alpha" role="main">
+	
+			<div class="inner-wrapper">
+		  	  <h2><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
+			</div>
+	
+			
+	  
+		  	<div id="quick-links" class="twelve columns alpha omega">
+				<div class="inner-wrapper no-top-padding">
+		  			<r:editable_region name="quick_links" />
+				</div>
+		  	</div>
+	  	
+		
+   	   	 <aside class="sidebar six columns alpha" role="complementary">
+   			 <div class="inner-wrapper">
+   				 <div class="faded-background">
+   	   	 			 <r:editable_region name="sidebar_2" />
+   				 </div>
+   			</div>
+   	   	 </aside> <!-- /.sidebar -->
+ 
+   	   	 <aside class="sidebar six columns omega" role="complementary">
+   			 <div class="inner-wrapper">
+   				 <div class="faded-background">
+   	   	  	   	  <r:editable_region name="sidebar_3" />
+   		   		</div>
+   		   </div>
+   	   	 </aside> <!-- /.sidebar -->
+  
+		</main><!-- /.main -->
+ 
+ 	
+	   	 
+	 
+	 
+	 </div>
+</div>
