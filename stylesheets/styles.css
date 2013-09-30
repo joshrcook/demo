@@ -192,6 +192,11 @@ nav li a {
 	color: #fff;
 }
 
+main ul li {
+	line-height: 24px;
+	padding-bottom: 5px;
+}
+
 #audience-nav {
 
 	clear: both;
