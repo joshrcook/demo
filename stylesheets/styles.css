@@ -280,7 +280,7 @@ element stays still.
   position:relative;
   overflow:hidden;
   width: 100%;
-  height:90px;
+  height:100px;
 }
  
 /*
@@ -301,6 +301,10 @@ this element is the one that *you* will style the most.
 */
 .items div {
   float:left;
+}
+
+.items img {
+	padding: 0 5px;
 }
 
 .items p {
