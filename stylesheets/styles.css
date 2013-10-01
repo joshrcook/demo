@@ -32,6 +32,10 @@ h2 {
 
 }
 
+.no-top-margin {
+	margin-top: 0px;
+}
+
 h3 {
 
 	font-size: 21px;
