@@ -303,6 +303,12 @@ this element is the one that *you* will style the most.
   float:left;
 }
 
+.items p {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 0px;
+}
+
 /* prev, next, prevPage and nextPage buttons */
 a.browse {
     background:url(../images/hori_large.png) no-repeat;
