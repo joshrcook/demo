@@ -33,8 +33,18 @@
 
 	<r:include_javascript name="jquery-1.10.2.min" />
 	<r:include_javascript name="jquery.tools.min" />
+	<r:include_javascript name="scrollable" />
 	<r:include_javascript name="modernizr.custom" />
 	<r:include_javascript name="navigation-option-6" />
+
+	<script type="text/javascript"> 
+	
+		$(function() {
+		  // initialize scrollable
+		  $(".scrollable").scrollable();
+		});
+	
+	</script>
 
   </body>
 </html>
