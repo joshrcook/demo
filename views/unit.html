@@ -1,0 +1,97 @@
+---
+layout: default
+---
+ 
+<div class="container">
+	<div class="sixteen columns">
+		<r:breadcrumbs ul_class="breadcrumbs" />
+	</div>
+
+	<div id="content-wrapper" class="sixteen columns dynamic-subnav">
+	
+
+		<aside class="four columns alpha">
+			
+				<div id="subnav">
+					<r:editable_region name="subnav_info_security" scope="site" />
+				</div>
+			
+		</aside>
+		<main class="main twelve columns alpha" role="main">
+	
+			<div class="inner-wrapper">
+		  	  <h2 class="no-top-margin"><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
+			</div>
+			
+		  	<div id="quick-links" class="twelve columns alpha omega">
+				<div class="inner-wrapper no-top-padding">
+		  			<r:editable_region name="quick_links" />
+				</div>
+	
+		  	<div class="eight columns alpha">
+				<div class="inner-wrapper no-top-padding">
+		  			<r:editable_region name="main" />
+				</div>
+		  	</div>
+	  
+		  	<div class="four columns">
+      			 <div class="inner-wrapper no-top-padding">
+      				
+      	   	  	   	  <r:editable_region name="sidebar_1" />
+      		
+      		   </div>
+		  	</div>
+	  	
+			<div class="twelve columns">
+	      	   	 <aside class="sidebar six columns alpha" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				 <div class="faded-background">
+	      	   	 			 <r:editable_region name="sidebar_2" />
+	      				 </div>
+	      			</div>
+	      	   	 </aside> <!-- /.sidebar -->
+ 
+	      	   	 <aside class="sidebar six columns omega" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				 <div class="faded-background">
+	      	   	  	   	  <r:editable_region name="sidebar_3" />
+	      		   		</div>
+	      		   </div>
+	      	   	 </aside> <!-- /.sidebar -->
+			</div>
+   	   	 
+		 	<div class="twelve columns">
+	      	   	 <aside class="sidebar four columns alpha" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				 <div class="faded-background">
+	      	   	 			 <r:editable_region name="sidebar_4" />
+	      				 </div>
+	      			</div>
+	      	   	 </aside> <!-- /.sidebar -->
+ 
+	      	   	 <aside class="sidebar four columns" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				 <div class="faded-background">
+	      	   	  	   	  <r:editable_region name="sidebar_5" />
+	      		   		</div>
+	      		   </div>
+	      	   	 </aside> <!-- /.sidebar -->
+		 
+	      	   	 <aside class="sidebar four columns omega" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				 <div class="faded-background">
+	      	   	  	   	  <r:editable_region name="sidebar_6" />
+	      		   		</div>
+	      		   </div>
+	      	   	 </aside> <!-- /.sidebar -->
+		 	</div>
+   	   	 
+  
+		</main><!-- /.main -->
+ 
+ 	
+	   	 
+	 
+	 
+	 </div>
+</div>
