@@ -277,7 +277,7 @@ aside {
 }
 
 #support-wrapper {
-	
+	padding: 40px 0;
 	background: #455560; /* Old browsers */
 
 	background: -moz-linear-gradient(top,  #455560 0%, #333f47 100%); /* FF3.6+ */
@@ -296,7 +296,7 @@ aside {
 
 	color: #fff;
 	font-size: 18px;
-	margin-top: 40px;
+
 }
 
 #footer, footer {
