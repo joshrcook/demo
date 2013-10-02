@@ -13,6 +13,10 @@ body {
 	margin-bottom: 0;
 }
 
+#footer, footer {
+	font-size: 11px;
+}
+
 .breadcrumbs { font-size: .7em; padding-left: 0; }
 .breadcrumbs li { display: inline; list-style-type: none; margin-left: 0; }
 .breadcrumbs li:before { content: "\00BB"; padding-right: 3px; }
