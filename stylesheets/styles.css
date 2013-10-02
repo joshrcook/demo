@@ -3,6 +3,13 @@
 body { 
 	background-color: #fff; 
 	background: #fff url(../images/body_repeat_bg.png);
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.sidebar, aside {
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .breadcrumbs { font-size: .7em; padding-left: 0; }
