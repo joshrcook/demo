@@ -54,6 +54,11 @@ h3 {
 	margin-left: 0px;
 }
 
+#quick-links ul li {
+	float: left;
+	margin-right: 10px;
+}
+
 #quick-links a:link, #quick-links a:visited  {
 	background-color: #eee;
 	-webkit-border-radius: 10px;
