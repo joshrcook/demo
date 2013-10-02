@@ -10,6 +10,7 @@ body {
 .sidebar, aside {
 	font-size: 14px;
 	line-height: 24px;
+	margin-bottom: 0;
 }
 
 .breadcrumbs { font-size: .7em; padding-left: 0; }
@@ -47,12 +48,6 @@ h3 {
 
 	font-size: 21px;
 	line-height: 28px;
-}
-
-.sidebar, aside {
-	font-size: 12px;
-	line-height: 18px;
-	margin-bottom: 0px;
 }
 
 #quick-links ul {
