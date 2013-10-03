@@ -347,9 +347,7 @@ this element is the one that *you* will style the most.
   float:left;
 }
 
-.items img {
-	padding: 0 5px;
-}
+
 
 .items p {
 	font-size: 14px;
