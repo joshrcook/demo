@@ -407,6 +407,7 @@ a.disabled {
 	font-size: 30px;
 	line-height: 36px;
 	margin-top: 0px;
+	text-transform: none;
 }
 
 
