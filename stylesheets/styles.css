@@ -44,8 +44,8 @@ h2 {
 
 }
 
-.no-top-margin {
-	margin-top: 0px;
+.page-title {
+	margin-top: 50px;
 }
 
 h3 {
@@ -64,6 +64,7 @@ h3 {
 	list-style-type: none;
 	padding-left: 0px;
 	margin-left: 0px;
+	margin-bottom: 40px;
 }
 
 #quick-links ul li {
@@ -122,7 +123,7 @@ aside ul li {
 
 
 .inner-wrapper {
-	padding: 40px 40px 0 40px;
+	padding: 0px 40px 0 40px;
 }
 
 .inner-wrapper.no-top-padding {
