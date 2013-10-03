@@ -402,6 +402,13 @@ a.disabled {
 }
 
 
+#support-wrapper h3 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 36px;
+	margin-top: 0px;
+}
+
 
 /* #Mobile - Landscape
 ================================================== */
