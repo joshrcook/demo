@@ -347,6 +347,9 @@ this element is the one that *you* will style the most.
   float:left;
 }
 
+.items div.icon {
+	max-width: 100px;
+}
 
 
 .items p {
