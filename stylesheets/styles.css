@@ -54,10 +54,19 @@ h3 {
 	line-height: 28px;
 }
 
+nav li, #nav li, .nav li {
+	margin-bottom: 0px;
+}
+
 #social-media-wrapper {
 	padding: 15px 0;
 	margin-top: 40px;
 	background: #fff;
+}
+
+.wvu-masthead {
+	margin-bottom: 0px;
+	font-size: .8em;
 }
 
 #quick-links ul {
@@ -120,7 +129,9 @@ aside ul li {
 	        box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
 }
 
-
+.visuallyhidden {
+	display:none;
+}
 
 .inner-wrapper {
 	padding: 0px 40px 0 40px;
