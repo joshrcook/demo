@@ -325,6 +325,15 @@ aside {
 			background: #f4f4f4;
 }
 
+table {
+	margin-top: 20px;
+	border-color: #ddd;
+}
+
+thead {
+	background-color: #ddd;
+}
+
 
 /*
 root element for the scrollable.  when scrolling occurs this
