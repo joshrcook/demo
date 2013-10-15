@@ -96,6 +96,11 @@ a.button, a.button:visited {
 	background: #fff;
 }
 
+ul ul li, aside ul ul li {
+	padding-left: 0px;
+	border-bottom: 0px;
+}
+
 .wvu-masthead {
 	margin-bottom: 0px;
 	font-size: .8em;
