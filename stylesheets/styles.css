@@ -565,7 +565,7 @@ a.disabled {
 	
 	#content-wrapper.dynamic-subnav {
 
-		background-position: -10px;
+		background-position: 0px;
 	}
 
 } /* Close Wide Desktop media query */
