@@ -2,34 +2,42 @@
 layout: default
 ---
     
-	
-	
+<div id="services" class="wrapper">
+	<div class="container">
+		<div class="sixteen columns">
+			<r:editable_region name="scrollable" />
+		</div>
+		
+		
+		
+	</div>
+</div>
 <div class="container">
-	<div class="sixteen columns">
-		<r:breadcrumbs ul_class="breadcrumbs" />
-	</div>
-	<div id="content-wrapper">
-		<main class="main sixteen columns" role="main">
-			<div class="inner-wrapper">
+	<main class="main sixteen columns" role="main">
+	
 		
-				<h2 class="page-title"><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
 		
-				<r:editable_region name="main" />
-			</div>
-  
-		</main><!-- /.main -->
+			<r:editable_region name="main" />
 
-		<aside class="sidebar eight columns" role="complementary">
-			<div class="inner-wrapper">
-				<r:editable_region name="sidebar_1" />
-			</div>
   
-		</aside>
+	</main><!-- /.main -->
 
-		<aside class="sidebar eight columns" role="complementary">
-			<div id="inner-wrapper">
-				<r:editable_region name="sidebar_2" />
-			</div>
-		</aside>
-	</div>
+	<aside class="sidebar one-third column" role="complementary">
+
+			<r:editable_region name="sidebar_1" />
+
+  
+	</aside>
+
+	<aside class="sidebar one-third column" role="complementary">
+
+			<r:editable_region name="sidebar_2" />
+
+	</aside>
+	
+	<aside class="sidebar one-third column" role="complementary">
+
+			<r:editable_region name="sidebar_3" />
+
+	</aside>
 </div>
