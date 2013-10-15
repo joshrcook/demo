@@ -161,6 +161,24 @@ aside ul li {
 	        box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, .3);
 }
 
+#support-wrapper h4 {
+	color: #fff;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+#support-wrapper ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#support-wrapper ul li a:link, #support-wrapper ul li a:visited {
+	color: #fff;
+}
+
 .visuallyhidden {
 	display:none;
 }
