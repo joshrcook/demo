@@ -159,6 +159,27 @@ aside ul li {
 	padding-left: 20px;
 }
 
+#subnav nav {
+	left: 0px;
+}
+
+#subnav nav a, #subnav nav a:visited {
+	background: transparent;
+	font-size: 14px;
+}
+
+#subnav ul li ul li a:link {
+	font-size: 12px;
+}
+
+#subnav li.active {
+	background: #d9531e;
+}
+
+#subnav li.active a:link, #subnav li.active a:visited {
+	color: #fff;
+}
+
 #content-wrapper {
 	background: #fff;
 	padding-bottom: 40px;
