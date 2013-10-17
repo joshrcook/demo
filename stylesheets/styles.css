@@ -36,7 +36,7 @@ h1 a:link, h1 a:visited {
 }
 
 h2 {
-	color: #005daa;
+	color: #455560;
 	font-size: 36px;
 	line-height: 36px;
 	border-bottom: 0px;
@@ -46,6 +46,8 @@ h2 {
 
 .page-title {
 	margin-top: 50px;
+	font-size: 60px;
+	line-height: 60px;
 }
 
 h3 {
@@ -99,6 +101,7 @@ a.button, a.button:visited {
 ul ul li, aside ul ul li {
 	padding-left: 0px;
 	border-bottom: 0px;
+	background: none;
 }
 
 .wvu-masthead {
