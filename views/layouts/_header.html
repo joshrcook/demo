@@ -1,56 +1,67 @@
 
+<div id="nav-wrapper" class="wrapper">
+	
 <div class="container">
-	<div class="eight columns">
-		<h1><a href="/"><r:site_name /></a></h1>
-	</div>
-	<div class="eight columns">
+		<div class="eight columns">
+			<h1><a href="/"><r:site_name /></a></h1>
+		</div>
+		<div class="eight columns">
 		
-		<div id="searchbox">
+			<div id="searchbox">
 		
-			<ul id="search-box">
-				<li>
-					<form class="form-wrapper cf" action="/s/" method="get" id="search-form">
+				<ul id="search-box">
+					<li>
+						<form class="form-wrapper cf" action="/s/" method="get" id="search-form">
 
 
 						
 						
-						<label class="visuallyhidden focusable" for="q">Search</label>         
-						<input class="text" id="q" maxlength="256" name="q" placeholder="Search..." size="32" type="text" />
+							<label class="visuallyhidden focusable" for="q">Search</label>         
+							<input class="text" id="q" maxlength="256" name="q" placeholder="Search..." size="32" type="text" />
 						
-						<input class="hidden" id="sort" name="sort" type="hidden" value="date:D:L:d1" />
-						<input class="hidden" id="output" name="output" type="hidden" value="xml_no_dtd" />
-						<input class="hidden" id="ie" name="ie" type="hidden" value="UTF-8" />
-						<input class="hidden" id="oe" name="oe" type="hidden" value="UTF-8" />
-						<input class="hidden" id="client" name="client" type="hidden" value="default_frontend" />
-						<input class="hidden" id="site" name="site" type="hidden" value="default_collection" />
+							<input class="hidden" id="sort" name="sort" type="hidden" value="date:D:L:d1" />
+							<input class="hidden" id="output" name="output" type="hidden" value="xml_no_dtd" />
+							<input class="hidden" id="ie" name="ie" type="hidden" value="UTF-8" />
+							<input class="hidden" id="oe" name="oe" type="hidden" value="UTF-8" />
+							<input class="hidden" id="client" name="client" type="hidden" value="default_frontend" />
+							<input class="hidden" id="site" name="site" type="hidden" value="default_collection" />
 
-						<input class="submit" name="btnG" type="submit" value="Search" />
+							<input class="submit" name="btnG" type="submit" value="Search" />
 				        
-					</form>
-					<ul data-ga="quicklinks">
-						<li><a href="http://myid.wvu.edu">MyID</a></li>
-						<li><a href="/labs">eCampus</a></li>
-						<li><a href="/wireless">Help Desk</a></li>
-						<li><a href="http://myid.wvu.edu">Training</a></li>
-						<li><a href="/labs">Wireless Access</a></li>
-						<li><a href="/wireless">MyAccess</a></li>
-						<li><a href="http://myid.wvu.edu">Software & Downloads</a></li>
-						<li><a href="/labs">Office 365</a></li>
-						<li><a href="/wireless">Computer Labs</a></li>
-						<li><a href="http://myid.wvu.edu">CTEC Classrooms</a></li>
-						<li><a href="/labs">Anti-Virus Software</a></li>
-						<li><a href="/wireless">File Locker</a></li>
-						<li><a href="http://myid.wvu.edu">Master Apps</a></li>
-						<li><a href="/labs">Gartner</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
+						</form>
+						<ul data-ga="quicklinks">
+							<li><a href="http://myid.wvu.edu">MyID</a></li>
+							<li><a href="/labs">eCampus</a></li>
+							<li><a href="/wireless">Help Desk</a></li>
+							<li><a href="http://myid.wvu.edu">Training</a></li>
+							<li><a href="/labs">Wireless Access</a></li>
+							<li><a href="/wireless">MyAccess</a></li>
+							<li><a href="http://myid.wvu.edu">Software & Downloads</a></li>
+							<li><a href="/labs">Office 365</a></li>
+							<li><a href="/wireless">Computer Labs</a></li>
+							<li><a href="http://myid.wvu.edu">CTEC Classrooms</a></li>
+							<li><a href="/labs">Anti-Virus Software</a></li>
+							<li><a href="/wireless">File Locker</a></li>
+							<li><a href="http://myid.wvu.edu">Master Apps</a></li>
+							<li><a href="/labs">Gartner</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		
-		<div id="audience-nav">
-			<r:editable_region name="audience_nav" scope="site" />
-		</div>
+			<div id="audience-nav">
+				<r:editable_region name="audience_nav" scope="site" />
+			</div>
 		
+		</div>
+
+
+
+
+		<nav class="sixteen columns" role="navigation">
+		  <r:site_menu />
+		</nav> <!-- close nav -->
 	</div>
 </div>
+
 
