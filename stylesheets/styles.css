@@ -189,11 +189,11 @@ aside ul li {
 
 
 
-#subnav li.active {
+#subnav a.current {
 	background: #d9531e;
 }
 
-#subnav li.active a:link, #subnav li.active a:visited {
+#subnav a.current:link, #subnav a.current:visited {
 	color: #fff;
 }
 
@@ -293,7 +293,7 @@ nav li a {
 
 #subnav {
 
-	padding-top: 50px;
+	padding: 50px 0;
 }
 
 #subnav ul li {
