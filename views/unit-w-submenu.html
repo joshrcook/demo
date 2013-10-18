@@ -17,16 +17,7 @@ layout: default
 			
 				<div id="subnav">
 										
-					<r:if_page_depth_eq page_depth="1">
-					    <nav role="navigation">
-					      <r:sub_menu />
-					    </nav>
-					</r:if_page_depth_eq>
-					<r:if_page_depth_gt page_depth="1">
-					    <nav role="navigation">
-					      <r:ancestor_menu ul_id="ancestor" start_depth="1" ul_class="menu" active_class="active" open_class="open" />
-					    </nav>
-					</r:if_page_depth_gt>
+					<r:ancestor_menu start_depth="2" max_depth="3" ul_id="sub-nav-1" active_class="current"/>
 				</div>
 			
 		</aside>
