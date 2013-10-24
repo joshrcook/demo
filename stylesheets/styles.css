@@ -257,7 +257,7 @@ aside ul li {
 	font-size: 14px;
 	padding: 20px 0;
 	width: 100%;
-	text-indent: 20px;
+	
 }
 
 nav ul {
@@ -283,9 +283,7 @@ nav li a {
 	-webkit-transition: all 0.2s ease-out;
 }
 
-#nav-wrapper li.active a:link {
-	background: #d9531e;
-}
+
 
 .wrapper {
 	width: 100%;
@@ -414,6 +412,15 @@ thead {
 	display: none;
 }
 
+.icon p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.icon p a {
+	display: block;
+}
 
 
 #support-wrapper h3 {
@@ -473,6 +480,9 @@ thead {
 		margin-bottom: 0px;
 	}
 	
+	#nav-wrapper li.active a:link {
+		background: #d9531e;
+	}
 	
 	
 	.inner-wrapper {
@@ -489,6 +499,20 @@ thead {
 	
 	#support-wrapper h4 {
 		margin-top: 0px;
+	}
+	#nav-wrapper nav a:link, #nav-wrapper nav a:visited {
+		
+		text-indent: 20px;
+	}
+	
+	.icon p {
+		margin-top: 10px;
+		margin-bottom: 18px;
+		border-bottom: 0px;
+	}
+
+	.icon p a {
+		display: inline;
 	}
 	
 	
