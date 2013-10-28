@@ -1,0 +1,112 @@
+---
+layout: default
+---
+ 
+
+
+<div id="main-wrapper" class="wrapper dynamic-subnav">
+	
+
+<div class="container">
+	
+
+	<div class="sixteen columns">
+	
+
+		<aside class="four columns alpha">
+			
+				<div id="subnav">
+										
+					<r:ancestor_menu start_depth="2" max_depth="3" ul_id="sub-nav-1" active_class="current"/>
+				</div>
+			
+		</aside>
+		<main class="main twelve columns alpha" role="main">
+	
+			<div class="inner-wrapper">
+				<r:breadcrumbs ul_class="breadcrumbs" />
+				
+		  	  <h2 class="page-title"><r:page:first_non_blank_attr names="alternate_name,name" /></h2>
+			</div>
+			
+		  	<div id="quick-links" class="twelve columns alpha omega">
+				<div class="inner-wrapper no-top-padding">
+		  			<r:editable_region name="quick_links" />
+				</div>
+			</div>
+	
+		  	<div class="eight columns alpha">
+				<div class="inner-wrapper no-top-padding">
+		  			<r:editable_region name="main" />
+				</div>
+		  	</div>
+	  
+		  	<div class="four columns omega">
+	  			<div class="inner-wrapper no-top-padding">
+			
+	  	   	  	   	  <r:editable_region name="sidebar_1" />
+	
+	  			</div>
+		  	</div>
+			
+		  	<div class="twelve columns alpha omega">
+				<div class="inner-wrapper no-top-padding">
+		  			<r:editable_region name="main_2" />
+					<r:descendants:each with_template="unit-w-submenu" by="name" order="{$order}" labels="{$tags}" labels_match="{$match}">
+				</div>
+			</div>
+	  	
+			<div class="twelve columns alpha omega">
+	      	   	 <aside class="sidebar six columns alpha" role="complementary">
+	      			 <div class="inner-wrapper">
+	      			
+	      	   	 			 <r:editable_region name="sidebar_2" />
+	      			
+	      			</div>
+	      	   	 </aside> <!-- /.sidebar -->
+ 
+	      	   	 <aside class="sidebar six columns omega" role="complementary">
+	      			 <div class="inner-wrapper">
+	      			
+	      	   	  	   	  <r:editable_region name="sidebar_3" />
+	      		   
+	      		   </div>
+	      	   	 </aside> <!-- /.sidebar -->
+			</div>
+   	   	 
+		 	<div class="twelve columns alpha omega">
+	      	   	 <aside class="sidebar four columns alpha" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				
+	      	   	 			 <r:editable_region name="sidebar_4" />
+	      				
+	      			</div>
+	      	   	 </aside> <!-- /.sidebar -->
+ 
+	      	   	 <aside class="sidebar four columns" role="complementary">
+	      		
+	      				 
+	      	   	  	   	  <r:editable_region name="sidebar_5" />
+	      		   		
+	      		
+	      	   	 </aside> <!-- /.sidebar -->
+		 
+	      	   	 <aside class="sidebar four columns omega" role="complementary">
+	      			 <div class="inner-wrapper">
+	      				 
+	      	   	  	   	  <r:editable_region name="sidebar_6" />
+	      		   		
+	      		   </div>
+	      	   	 </aside> <!-- /.sidebar -->
+		 	</div>
+   	   	 
+  
+		</main><!-- /.main -->
+ 
+ 	
+	   	 
+	 
+	 
+	 </div>
+</div>
+</div>

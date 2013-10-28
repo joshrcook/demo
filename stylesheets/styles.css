@@ -43,7 +43,6 @@ h1 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 30px 0 0 0;
-	margin-top: 10px;
 }
 
 h1 a:link, h1 a:visited {
@@ -61,8 +60,8 @@ h2 {
 
 .page-title {
 	margin-top: 50px;
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 48px;
+	line-height: 48px;
 }
 
 h3 {
@@ -538,7 +537,6 @@ thead {
 	  /* this cannot be too large */
 	  width:20000em;
 	  position:absolute;
-	  padding: 0 55px;
 	}
  
 	/*
