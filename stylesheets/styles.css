@@ -219,7 +219,7 @@ aside ul li {
 	line-height: 18px;
 }
 
-#support-wrapper ul li a:link, #support-wrapper ul li a:visited {
+#support-wrapper ul li a:link, #support-wrapper ul li a:visited, #support-wrapper h3 a:link, #support-wrapper h3 a:visited {
 	color: #fff;
 }
 
