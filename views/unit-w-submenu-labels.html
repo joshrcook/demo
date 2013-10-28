@@ -36,9 +36,17 @@ layout: default
 			</div>
 	
 		  	<div class="eight columns alpha">
-				<div class="inner-wrapper no-top-padding">
-		  			<r:editable_region name="main" />
-				</div>
+				<ul class="thumbnails">
+				      <r:descendants:each with_template="unit-w-submenu" by="name" order="{$order}" labels="{$tags}" labels_match="{$match}">
+				        <li class="span4">
+				          <div class="thumbnail">
+				            <a href="<r:page:url />">
+				              <r:page:first_non_blank_attr names="alternate_name,name" />
+				            </a>
+				          </div>
+				        </li>
+				      </r:descendants:each>
+				    </ul>
 		  	</div>
 	  
 		  	<div class="four columns omega">
@@ -51,17 +59,7 @@ layout: default
 			
 		  	<div class="twelve columns alpha omega">
 				<div class="inner-wrapper no-top-padding">
-					<ul class="thumbnails">
-					      <r:descendants:each with_template="unit-w-submenu" by="name" order="{$order}" labels="{$tags}" labels_match="{$match}">
-					        <li class="span4">
-					          <div class="thumbnail">
-					            <a href="<r:page:url />">
-					              <r:page:first_non_blank_attr names="alternate_name,name" />
-					            </a>
-					          </div>
-					        </li>
-					      </r:descendants:each>
-					    </ul>
+					<r:editable_region name="main_2" />
 				</div>
 			</div>
 	  	
