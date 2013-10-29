@@ -219,7 +219,7 @@ aside ul li {
 	line-height: 18px;
 }
 
-#support-wrapper ul li a:link, #support-wrapper ul li a:visited, #support-wrapper h3 a:link, #support-wrapper h3 a:visited {
+#support-wrapper ul li a:link, #support-wrapper ul li a:visited, #support-wrapper h3 a:link, #support-wrapper h3 a:visited, #support-wrapper h4 a:link, #support-wrapper h4 a:visited {
 	color: #fff;
 }
 
@@ -607,6 +607,11 @@ thead {
 	.icon img {
 		display: inline;
 	}
+	
+	#scrollable-wrapper {
+		width: 700px;
+		margin: 0 24px;
+	}
 
 } /* Close Tablet media query */
 
@@ -630,6 +635,10 @@ thead {
 		left: -15px;
 	}
 	
+	#scrollable-wrapper {
+		width: 800px;
+		margin: 0 80px;
+	}
 	
 
 } /* Close Desktop media query */
@@ -654,6 +663,10 @@ thead {
 		padding: 20px;
 	}
 	
+	#scrollable-wrapper {
+		width: 1100px;
+		margin: 0 40px;
+	}
 	
 
 } /* Close Wide Desktop media query */
