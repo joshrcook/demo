@@ -415,6 +415,7 @@ thead {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	border-bottom: 1px solid #ccc;
+	line-height: 29px;
 }
 
 .icon p a {
@@ -432,6 +433,11 @@ thead {
 
 #support-wrapper h4 {
 	margin-top: 30px;
+}
+
+div.items {
+	height: 420px;
+	overflow: hidden;
 }
 
 
