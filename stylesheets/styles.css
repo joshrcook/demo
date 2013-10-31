@@ -31,6 +31,10 @@ main {
 	padding-bottom: 50px;
 }
 
+nav a, #nav a, nav a:visited, #nav a:visited {
+	margin-right: 0px;
+}
+
 .breadcrumbs { font-size: 12px; padding-left: 0; }
 .breadcrumbs li { display: inline; list-style-type: none; margin-left: 0; }
 .breadcrumbs li:before { content: "\00BB"; padding-right: 3px; }
@@ -459,7 +463,7 @@ div.items {
 @media only screen and (min-width: 48em) {
 
 	#nav-wrapper nav a:link, #nav-wrapper nav a:visited {
-		padding: 10px;
+		padding: 10px 8px;
 		text-indent: 0px;
 		width: auto;
 		font-size: 13px;
@@ -505,10 +509,7 @@ div.items {
 	#support-wrapper h4 {
 		margin-top: 0px;
 	}
-	#nav-wrapper nav a:link, #nav-wrapper nav a:visited {
-		
-		text-indent: 20px;
-	}
+	
 	
 	.icon p {
 		margin-top: 10px;
