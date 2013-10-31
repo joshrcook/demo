@@ -30,9 +30,13 @@
 
 	<r:include_javascript name="jquery-1.10.2.min" />
 	<r:include_javascript name="jquery.tools.min" />
-	<r:include_javascript name="respond.min" />
 	<r:include_javascript name="modernizr.custom" />
 	<r:include_javascript name="navigation-option-6" />
+	
+	<!-- Fix IE 8 and below so that media queries get supported -->
+	<!--[if lt IE 9]>
+	  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+	<![endif]-->
 
 	<script type="text/javascript">  
 	
