@@ -21,6 +21,14 @@ aside ul li ul {
 	margin-left: 10px;
 }
 
+#maintenance-schedule ul li strong {
+	clear: both;
+}
+
+#maintenance-schedule ul {
+	margin-bottom: 10px;
+}
+
 #main-wrapper {
 	background: #f4f4f4;
 }
