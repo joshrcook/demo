@@ -17,6 +17,9 @@ body {
 	font-size: 11px;
 }
 
+aside ul li ul {
+	margin-left: 10px;
+}
 
 #main-wrapper {
 	background: #f4f4f4;
