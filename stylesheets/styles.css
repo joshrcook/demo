@@ -23,6 +23,7 @@ aside ul li ul {
 
 #maintenance-schedule ul li strong {
 	clear: both;
+	display: block;
 }
 
 #maintenance-schedule ul {
