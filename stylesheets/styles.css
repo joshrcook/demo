@@ -296,9 +296,21 @@ nav li a {
 	transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out 0s;
 	-webkit-transition: all 0.2s ease-out;
+	
 }
 
 
+
+a.nav-toggle:link, a.nav-toggle:visited {
+	color: #fff;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 10px 0;
+	float: right;
+	background: #000 url(../images/hamburger.png) no-repeat;
+	padding-left: 50px;
+	background-position: 12px 12px;
+}
 
 .wrapper {
 	width: 100%;
@@ -593,6 +605,12 @@ div.items {
 		height: auto;
 		overflow: visible;
 	}
+	
+	.nav-collapse li {
+		width: auto;
+	}
+	
+	
 	
 	
 	/*
