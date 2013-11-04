@@ -7,6 +7,25 @@ body {
 	line-height: 24px;
 }
 
+#scrollable-wrapper {
+	display: none;
+}
+
+#mobile-icons ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#mobile-icons ul li {
+	border-bottom: 1px solid #ccc;
+}
+
+#mobile-icons ul li a:link {
+	line-height: 30px;
+	
+}
+
 .sidebar, aside {
 	font-size: 14px;
 	line-height: 24px;
@@ -542,6 +561,14 @@ div.items {
 ================================================== */
   /* Note: Design for a width of 768px */
 @media only screen and (min-width: 48em) {
+
+	#scrollable-wrapper {
+		display: block;
+	}
+
+	#mobile-icons {
+		display: none;
+	}
 
 	#nav-wrapper nav a:link, #nav-wrapper nav a:visited {
 		padding: 10px 8px;
