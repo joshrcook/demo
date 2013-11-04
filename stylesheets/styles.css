@@ -331,6 +331,7 @@ a.nav-toggle:link, a.nav-toggle:visited {
 	background: #000 url(../images/hamburger.png) no-repeat;
 	padding-left: 50px;
 	background-position: 12px 12px;
+	width: 240px;
 }
 
 .wrapper {
