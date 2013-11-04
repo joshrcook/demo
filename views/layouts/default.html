@@ -14,6 +14,9 @@
     <![endif]-->
     <!-- HTML5 Shiv is *required* for IE to recognize the new HTML5 tags. -->
 
+	
+
+
   </head>
   <body id="<r:page:template:name />" class="page-<r:page:id />">
 
@@ -44,6 +47,12 @@
 		$(document).ready(function() {
 
 		// Scrollable sliders
+
+			var images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg'];
+		
+		
+			$('.background-photo').css({'background-image': 'url(images/' + images[Math.floor(Math.random() *      images.length)] + ')'});
+			
 
 			var $scrollables = $(".scrollable").scrollable({circular: true, speed:600 }).autoscroll({ autoplay: true, interval:6000 });
 
