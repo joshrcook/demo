@@ -299,7 +299,9 @@ nav li a {
 	
 }
 
-
+#support-wrapper a:link, #support-wrapper a:visited {
+	color: #fff;
+}
 
 a.nav-toggle:link, a.nav-toggle:visited {
 	color: #fff;
