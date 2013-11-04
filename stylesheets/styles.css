@@ -410,6 +410,13 @@ footer a:link, footer a:visited {
 			background: #f4f4f4;
 }
 
+.background-photo {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
 table {
 	margin-top: 20px;
 	border-color: #ddd;
@@ -508,6 +515,7 @@ div.items {
 	
 	.inner-wrapper {
 		padding: 0px 40px 0 40px;
+		position: relative;
 	}
 
 	.inner-wrapper.no-top-padding {
