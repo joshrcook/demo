@@ -32,7 +32,7 @@
 
 
 	<r:include_javascript name="jquery-1.10.2.min" />
-	<r:include_javascript name="jquery.tools.min" />
+	<r:include_javascript name="jquery.tools.min2" />
 	<r:include_javascript name="modernizr.custom" />
 	<r:include_javascript name="navigation-option-6" />
 	<r:include_javascript name="responsive-nav.min" />
@@ -55,7 +55,7 @@
 			$('.background-photo').css({'background-image': 'url(/images/' + images[Math.floor(Math.random() *      images.length)] + ')'});
 			
 
-			var $scrollables = $(".scrollable").scrollable({circular: true, speed:600 }).autoscroll({ autoplay: true, interval:6000 });
+			var $scrollables = $(".scrollable").scrollable({circular: true, speed:600 }).autoscroll({ autoplay: false, interval:60000 });
 
 			$scrollables.each(function() {
 					var $itemsToClone = $(this).scrollable().getItems().slice(1);
