@@ -1,12 +1,12 @@
     
-name: Theme Name
-description: This is the Theme Name theme built using the Radius template language for CleanSlate. Originally authored by Adam Johnson.
+name: Information Technology
+description: This is the Information Technology theme built using the Radius template language for CleanSlate. Originally authored by Adam Glenn.
 
 # CSS
 css: 
   
   # Turn CSS compression/minification on/off.
-  compress: false
+  compress: true
   
 # JavaScript options
 js:
