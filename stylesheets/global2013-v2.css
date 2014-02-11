@@ -168,6 +168,11 @@ background-image: -moz-linear-gradient( center bottom, rgb(0,122,193) 32%, rgb(5
 /* html5_blog.css 11-29-10 */
 .comment{padding:20px} article .date{visibility:hidden;display:none} form .comment_author{float:left;width:49%} #new-comment h3{border-bottom-width:1px;border-bottom-style:dotted;border-bottom-color:#CCC} form .comment_email_address{float:right;width:49%} article .footer span{background-color:#666;font-family: Helvetica, "Helvetica Neue", Arial, Verdana, sans-serif;font-size:10px;font-weight:700;float:left;width:120px;height:15px;line-height:15px;margin-right:1px} article .footer a{display:block;color:#FFF;padding-left:7px;text-decoration:none} article .header span,.comment .header span{font-family:Arial, Helvetica, sans-serif;color:#69C} .comment .number{font-size:300%;position:absolute;left:-70px} .comment .reply{float:right;position:absolute;right:0;top:0} .comment .header{position:relative;color:#CCC} .comment .body{clear:left} article .body{padding-bottom:10px;padding-top:5px} article .header{color:#CCC} article .header h2{font-size:230%;padding-bottom:5px;margin-bottom:5px} article{padding-bottom:40px;margin-bottom:20px} #comment_author,#comment_email_address,#comment_body{width:100%} #flash p{margin:0} #flash p.msg{font-size:1.5em;color:#000}
 
+/* Training Sidebar template styles */
+.training-sidebar {padding-left: 0;list-style-type: none;}
+.training-sidebar > li > ul {list-style-type: disc;}
+
+
 /* Media query for higher pixel density displays, eg iPhone 4, Android, etc */
 @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .wvu-official-logo,.wvu-social a {-webkit-background-size: 100%; background-size: 100%}
